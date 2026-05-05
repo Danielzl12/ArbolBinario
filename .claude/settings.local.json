@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\Daniel Zuluaga\\\\Documents\\\\Codes\\\\ArbolBinario\\\\src\\\\main\\\\java\\\\org\\\\example\\\\modelo\")",
+      "Bash(Out-Null)",
+      "Bash(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\Daniel Zuluaga\\\\Documents\\\\Codes\\\\ArbolBinario\\\\src\\\\main\\\\java\\\\org\\\\example\\\\logica\")",
+      "Bash(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\Daniel Zuluaga\\\\Documents\\\\Codes\\\\ArbolBinario\\\\src\\\\main\\\\java\\\\org\\\\example\\\\gui\")",
+      "Bash(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\Daniel Zuluaga\\\\Documents\\\\Codes\\\\ArbolBinario\\\\src\\\\main\\\\java\\\\org\\\\example\\\\aplicacion\")",
+      "Bash(Write-Output \"Directorios creados\")",
+      "Read(//mnt/c/Users/Daniel Zuluaga/Documents/Codes/**)",
+      "Bash(mvn compile *)",
+      "Bash(find 'C:/Users/Daniel Zuluaga/Documents/Codes/ArbolBinario/src/main/java' -name '*.java')",
+      "Read(//tmp/**)",
+      "Bash(javac --release 17 -d 'C:/Users/Daniel Zuluaga/Documents/Codes/ArbolBinario/target/classes' @/tmp/sources.txt)",
+      "Bash('C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/plugins/maven/lib/maven3/bin/mvn' -f 'C:/Users/Daniel Zuluaga/Documents/Codes/ArbolBinario/pom.xml' compile)"
+    ]
+  }
+}
